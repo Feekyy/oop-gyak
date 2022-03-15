@@ -116,11 +116,11 @@ public class main {
 			
 			do
 			{
-				System.out.print("Do you want play an other game? Answer me: (Yes/No) ");
+				System.out.print("Do you want play another game? (Yes/No): ");
 				while (outsc.hasNextInt())
 				{
 					System.out.println("*Cannot interpret the input*");
-					System.out.print("Do you want play an other game? Answer me: (Yes/No) ");
+					System.out.print("Do you want play another game? (Yes/No): ");
 					sc.nextLine();
 				}
 				outstr = outsc.nextLine().toLowerCase();
